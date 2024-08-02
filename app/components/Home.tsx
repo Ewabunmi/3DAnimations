@@ -5,7 +5,8 @@ import "aos/dist/aos.css";
 import Features from "./Features/Features";
 import Digital from "./Digital/Digital";
 import Spatial from "./Spatial/Spatial";
-import AnimatedLine from "../components/AnimatedLine";
+import Slideshow from "./Slideshow/Slideshow";
+import MarqueeApp from "./MarqueeText/MarqueeText";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -25,11 +26,10 @@ const Home: React.FC = () => {
   return (
     <div className="overflow-hidden">
       <Features />
+      <MarqueeApp />
       <Digital />
+      <Slideshow />
       <Spatial />
-      <AnimatedLine startX={100} startY={100} endX={400} endY={100} />
-      <AnimatedLine startX={400} startY={100} endX={400} endY={300} />
-      <AnimatedLine startX={400} startY={300} endX={100} endY={300} />
     </div>
   );
 };

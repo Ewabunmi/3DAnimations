@@ -30,26 +30,26 @@ const Spatial = () => {
           </p>
           <div className="flex items-center space-x-3 mt-[2rem]">
             <button className="text-[18px] bg-[#c5c1c1] px-10 py-3 rounded-lg text-black font-medium">
-              Button 1
+              Optimist
             </button>
             <button className="text-[18px] bg-[#c5c1c1] px-20 py-3 rounded-lg text-black font-medium">
-              Button 1
+              sustainability
             </button>
           </div>
           <div className="flex items-center space-x-3 mt-[1rem]">
             <button className="text-[18px] bg-[#c5c1c1] px-14 py-3 rounded-lg text-black font-medium">
-              Button 1
+              humanity
             </button>
             <button className="text-[18px] bg-[#c5c1c1] px-12 py-3 rounded-lg text-black font-medium">
-              Button 1
+              energetic
             </button>
           </div>
           <div className="flex items-center space-x-3 mt-[1rem]">
             <button className="text-[18px] bg-[#c5c1c1] px-24 py-3 rounded-lg text-black font-medium">
-              Button 1
+              truthworthy
             </button>
             <button className="text-[18px] bg-[#c5c1c1] px-10 py-3 rounded-lg text-black font-medium">
-              Button 1
+              sustainability
             </button>
           </div>
         </div>
